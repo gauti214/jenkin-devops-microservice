@@ -16,13 +16,13 @@ pipeline {
 		}
 	        stage('Test') {
 		      steps {
-			 sh 'mvn --version'
+			 // sh 'mvn --version'
 			 echo "Test"
 		      }
 		}
 		stage('Integration Test') {
 		      steps {
-			 sh 'mvn --version'
+			 // sh 'mvn --version'
 			 echo "Integration Test"
 		      }
 		}
